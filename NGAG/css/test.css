@@ -1,0 +1,803 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+}
+
+
+
+body{
+  font-family: 'Roboto', sans-serif; 
+  margin: 0px
+}
+
+.hero { 
+
+ background-image: url(File:///Users/arun/Desktop/NGAG/img/home.png) ;
+ background-size: cover;
+ width: 100%;
+ height: 650px;
+}
+
+  @media only screen and (max-width: 436px) {
+  .hero  {
+background-image: url(File:///Users/arun/Desktop/NGAG/img/home.png) ;
+ background-size: cover;
+ width: 100%;
+ height: 670px;
+}
+    
+  }
+
+.hero .logo  {
+  padding-top: 10px;
+  margin-right: auto !important;
+  padding-left: 25px;
+}
+
+.hero ul {
+
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding-right: 70px;
+  margin: 0px;
+  padding-top: 40px;
+
+
+}
+
+.hero li {
+ padding-right: 60px;
+ padding-top:20px;
+}
+
+.hero li a {
+
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .subscribe_btn {
+
+  background-color: white;
+  border: none;
+  font-weight: light; !important;
+  color: black;
+  padding: 15px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+  @media only screen and (max-width: 471px) {
+  .navbar .subscribe_btn  {
+  display: none;
+}
+    
+  }
+
+
+
+
+@media only screen and (max-width: 675px) {
+
+
+.hero .logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  margin-right: 0 !important;
+  padding-left: 0px;
+}
+
+.hero ul {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 38px;
+    gap: 20px;
+}
+
+.hero li {
+ padding-right: 0px;
+}
+
+}
+
+.hero_header {
+  padding-top: 95px;
+}
+
+  @media only screen and (max-width: 473px) {
+  .hero_header  {
+padding-top: 65px;
+}
+    
+  }
+
+
+
+.hero_header h1
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero_header p
+
+{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.hero_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 20px;
+
+
+}
+
+.hero_button .hero_btn1 {
+  background-color: white;
+  border: none;
+  font-weight: light; !important;
+  color: black;
+  padding: 15px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+
+
+}
+
+.hero_button .hero_btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+  font-weight: light; !important;
+  color: white;
+  padding: 15px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  
+}
+
+.subheader {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subheader h1{
+  font-weight: 450;
+}
+
+.categories_three{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+  @media only screen and (max-width: 1200px) {
+  .categories_three  {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+  gap: 19px;
+}
+    
+  }
+
+
+.category_music{
+
+background-image: linear-gradient(to bottom, transparent 50%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/kforest.jpeg) ;
+background-size: cover;
+background-position: 29% 72%;
+height: 450px;
+width: 400px;
+border-radius: 18px;
+display: flex;
+align-items: flex-end;
+}
+
+  @media only screen and (max-width: 1200px) {
+  .category_music  {
+background-image: linear-gradient(to bottom, transparent 50%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/kforest.jpeg) ;
+background-size: cover;
+background-position: 29% 72%;
+height: 350px;
+width: 300px;
+border-radius: 18px;
+display: flex;
+align-items: flex-end;
+}
+    
+  }
+
+  
+.category_music p {
+color: white;
+font-size: 18px;
+position: absolute;
+padding-left: 32px;
+letter-spacing: 1.3px;
+}
+
+.category_film{
+background-image: linear-gradient(to bottom, transparent 50%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/mr.jpeg) ;
+  background-size: cover;
+  background-position: 29% 5%;
+  height: 450px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.category_film p {
+color: white;
+font-size: 18px;
+position: absolute;
+padding-left: 32px;
+letter-spacing: 1.3px;
+}
+
+  @media only screen and (max-width: 1200px) {
+  .category_film  {
+  background-image: linear-gradient(to bottom, transparent 50%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/mr.jpeg) ;
+  background-size: cover;
+  background-position: 29% 5%;
+  height: 350px;
+  width: 300px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+.category_fashion{
+
+  background-image: linear-gradient(to bottom, transparent 50%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/kj.jpeg) ;
+  background-size: cover;
+  background-position: 29% 72%;
+  height: 450px;
+  width: 400px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+
+  @media only screen and (max-width: 1200px) {
+  .category_fashion  {
+  background-image: linear-gradient(to bottom, transparent 50%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/kj.jpeg) ;
+  background-size: cover;
+  background-position: 29% 72%;
+  height: 350px;
+  width: 300px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+
+.category_fashion p {
+color: white;
+font-size: 18px;
+position: absolute;
+padding-left: 32px;
+letter-spacing: 1.3px;
+}
+
+.categories_one{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+
+}
+
+.category_archive{
+  background-image: linear-gradient(to bottom, transparent 70%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/dxpechef-dope-chef-99.jpg) ;
+  background-size: cover;
+  background-position: 29% 52%;
+  height: 450px;
+  width: 1356px;
+  background-color: grey;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+  @media only screen and (max-width: 1355px) {
+  .category_archive {
+  background-image: linear-gradient(to bottom, transparent 70%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/dxpechef-dope-chef-99.jpg) ;
+  background-size: cover;
+  background-size: ;background-position: 29% 52%;
+  height: 450px;
+  width: 1100px;
+  background-color: grey;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+    @media only screen and (max-width: 1106px) {
+  .category_archive {
+  background-image: linear-gradient(to bottom, transparent 70%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/dxpechef-dope-chef-99.jpg) ;
+  background-size: cover;
+  background-position: 29% 52%;
+  height: 350px;
+  width: 800px;
+  background-color: grey;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+      @media only screen and (max-width: 800px) {
+  .category_archive {
+  background-image: linear-gradient(to bottom, transparent 70%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/dxpechef-dope-chef-99.jpg) ;
+  background-size: cover;
+  background-position: 29% 52%;
+  height: 250px;
+  width: 600px;
+  background-color: grey;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+        @media only screen and (max-width: 600px) {
+  .category_archive {
+  background-image: linear-gradient(to bottom, transparent 70%, black 100%), url(File:///Users/arun/Desktop/NGAG/img/dxpechef-dope-chef-99.jpg) ;
+  background-size: cover;
+  background-position: 29% 52%;
+  height: 150px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+.category_archive p {
+color: white;
+font-size: 18px;
+position: absolute;
+padding-left: 32px;
+letter-spacing: 1.3px;
+}
+
+
+.category_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.category_button .category_btn {
+  background-color: black;
+  border: none;
+  font-weight: 100 !important;
+  color: white;
+  padding: 15px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
+
+.banner{ 
+
+ background-image: url(File:///Users/arun/Desktop/NGAG/img/banner.png) ;
+ background-size: cover;
+ background-position: 29% 52%;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 450px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.banner_contents{
+
+}
+
+.banner h1{
+
+  color: white;
+      font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.banner_cta {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    padding-top: 30px;
+  }
+
+.banner_cta .banner_btn {
+  background-color: white;
+  border: none;
+  font-weight: light; !important;
+  color: black;
+  padding: 15px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+
+.banner_input  {
+
+justify-content: center;
+display: flex;
+}
+
+.banner_input input {
+
+    background-color: rgba(255, 255, 255, 0.22);
+    border-color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 460px;
+    height: 43px;
+
+}
+
+    @media only screen and (max-width: 468px) {
+  .banner_input input {
+    background-color: rgba(255, 255, 255, 0.22);
+    border-color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 350px;
+    height: 43px;
+}
+    
+  }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 1px;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+
+.subheader_gallery {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subheader_gallery h1{
+  font-weight: 450;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+  @media only screen and (max-width: 1200px) {
+  .gallery  {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+  gap: 19px;
+}
+    
+  }
+
+.gallery1{
+  background-image:  url(File:///Users/arun/Desktop/NGAG/img/8e8e28af0c6ffdd15c955cecfa26c5d7.jpg) ;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-size: cover;
+  background-position: 50% 72%;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+}
+
+  @media only screen and (max-width: 1200px) {
+  .gallery1  {
+  background-size: cover;
+  background-position: 29% 72%;
+  height: 350px;
+  width: 300px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+.gallery2{
+
+  background-image:  url(File:///Users/arun/Desktop/NGAG/img/oscars.png) ;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-size: cover;
+  background-position: 20% 100%;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+}
+  @media only screen and (max-width: 1200px) {
+  .gallery2  {
+  background-size: cover;
+  background-position: 29% 72%;
+  height: 350px;
+  width: 300px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+.gallery3{
+  background-image:  url(File:///Users/arun/Desktop/NGAG/img/1281685.jpg) ;
+  background-size: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+}
+  @media only screen and (max-width: 1200px) {
+  .gallery3  {
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+    
+  }
+
+
+
+.gallery_row2{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+
+}
+
+  @media only screen and (max-width: 1200px) {
+  .gallery_row2  {
+  display: none;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+  gap: 19px;
+}
+    
+  }
+
+
+
+.gallery4{
+  background-image:  url(File:///Users/arun/Desktop/NGAG/img/cn-tower-in-the-rain.jpg) ;
+  background-size: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+}
+
+.gallery5{
+  background-image:  url(File:///Users/arun/Desktop/NGAG/img/tokyo.png) ;
+  background-size: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-position: 70% 40%;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+}
+
+.gallery6{
+  background-image:  url(File:///Users/arun/Desktop/NGAG/img/centralpark.png) ;
+  background-size: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-position: 50% 40%;
+  height: 450px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 18px;
+}
+
+.gallery_row3{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+
+}
+
+  @media only screen and (max-width: 1200px) {
+  .gallery_row3  {
+
+  display: none;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+  gap: 19px;
+}
+    
+  }
+
+
+.gallery_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery_button .gallery_btn {
+  background-color: black;
+  border: none;
+  font-weight: 100 !important;
+  color: white;
+  padding: 15px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+}
+
+.footer h1{
+padding-top: 25px;
+  font-weight: 450;
+  text-align: center;
+}
+
+.footer_menu {
+
+
+
+}
+
+.footer_menu li {
+
+  display: inline;
+  list-style-type: none;
+  padding: 20px ;
+}
+
+  @media only screen and (max-width: 445px) {
+  .footer_menu li  {
+
+ display: inline;
+  list-style-type: none;
+  padding: 12px ;
+}
+    
+  }
+
+    @media only screen and (max-width: 380px) {
+  .footer_menu li  {
+
+ display: inline;
+  list-style-type: none;
+  padding: 8px ;
+}
+    
+  }
+
+
+.footer_menu li a {
+
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
