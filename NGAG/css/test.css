@@ -84,7 +84,7 @@ background-image: url(File:///Users/arun/Desktop/NGAG/img/home.png) ;
 
   background-color: white;
   border: none;
-  font-weight: light; !important;
+  font-weight: lighter; !important;
   color: black;
   padding: 15px 39px;
   text-align: center;
@@ -179,7 +179,7 @@ padding-top: 65px;
 .hero_button .hero_btn1 {
   background-color: white;
   border: none;
-  font-weight: light; !important;
+  font-weight: lighter; !important;
   color: black;
   padding: 15px 39px;
   text-align: center;
@@ -497,7 +497,7 @@ padding-bottom: 12px;
 .banner_cta .banner_btn {
   background-color: white;
   border: none;
-  font-weight: light; !important;
+  font-weight: lighter; !important;
   color: black;
   padding: 15px 39px;
   text-align: center;
