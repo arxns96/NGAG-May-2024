@@ -8,7 +8,4 @@ This project has some imperfections such as layout on the hero image when it is 
 
 To view the UI for this project, please click the link below
 
-https://www.figma.com/design/rDpUELdWYorwwkvBBsJqkY/NGAG?node-id=0%3A1&t=z8fQDDaTgG6biU2z-1
-
-
 Arun. S
